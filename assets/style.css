@@ -1,0 +1,55 @@
+.float-container {
+    position: fixed;
+    top: 33%;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.float-container button {
+    
+    z-index: 99;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    margin-right: -140px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: white;
+    border-color: rgb(54, 54, 54);
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 2px 4px #7d7d7d;
+    box-shadow: 0 2px 4px #7d7d7d;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    
+}
+
+
+.float-container button:hover {
+    
+    margin-right: 0;
+    background-color: rgb(54, 54, 54);
+    -webkit-box-shadow: 0 2px 4px #7d7d7d;
+    box-shadow: 0 2px 4px #7d7d7d;
+}
+
